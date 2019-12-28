@@ -12,7 +12,7 @@ apt-get install build-essential devscripts debhelper cmake libboost-system-dev l
 
 ---
 # 安装命令：
-> wget -N --no-check-certificate https://raw.githubusercontent.com/BlackTouma/trojan-wiz/master/ins.sh && chmod +x ins.sh && sudo bash  ins.sh
+> wget -N --no-check-certificate https://raw.githubusercontent.com/BlackTouma/trojan-wiz/master/ins.sh && chmod +x ins.sh && bash  ins.sh
 ---
 支持的系统：
 - ubuntu 16.04+
