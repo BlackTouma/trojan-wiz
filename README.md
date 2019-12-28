@@ -7,6 +7,7 @@
 - trojan无流量特证，流量完全是https流量，这是翻墙的最终境界
 # 环境安装 （注意root环境下运行）
 > apt-get update -y
+
 > apt-get install build-essential devscripts debhelper cmake libboost-system-dev libboost-program-options-dev libssl-dev default-libmysqlclient-dev python3 curl openssl -y
 ---
 # 安装命令：
@@ -14,9 +15,13 @@
 ---
 # 基本命令：
 > systemctl start trojan-gfw                开始
+
 > systemctl stop trojan-gfw                 停止
+
 > systemctl restart trojan-gfw              重启
+
 > systemctl status trojan-gfw               状态
+
 ---
 支持的系统：
 - ubuntu 16.04+
