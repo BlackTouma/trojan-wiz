@@ -7,6 +7,7 @@
 - trojan无流量特证，流量完全是https流量，这是翻墙的最终境界
 # 环境安装 （注意root环境下运行）
 apt-get update -y
+
 apt-get install build-essential devscripts debhelper cmake libboost-system-dev libboost-program-options-dev libssl-dev default-libmysqlclient-dev python3 curl openssl -y
 
 ---
